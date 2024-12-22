@@ -8,21 +8,21 @@
 
 return {
   -- NOTE: Yes, you can install new plugins here!
-  'mfussenegger/nvim-dap',
+  'https://gitee.com/masa-laboratory/nvim-dap',
   -- NOTE: And you can specify dependencies as well
   dependencies = {
     -- Creates a beautiful debugger UI
-    'rcarriga/nvim-dap-ui',
+    'https://gitee.com/masa-laboratory/nvim-dap-ui',
 
     -- Required dependency for nvim-dap-ui
-    'nvim-neotest/nvim-nio',
+    'https://gitee.com/masa-laboratory/nvim-nio',
 
     -- Installs the debug adapters for you
-    'williamboman/mason.nvim',
-    'jay-babu/mason-nvim-dap.nvim',
+    'https://gitee.com/masa-laboratory/mason.nvim',
+    'https://gitee.com/masa-laboratory/mason-nvim-dap.nvim',
 
     -- Add your own debuggers here
-    'leoluz/nvim-dap-go',
+    'https://gitee.com/masa-laboratory/nvim-dap-go',
   },
   keys = {
     -- Basic debugging keymaps, feel free to change to your liking!
