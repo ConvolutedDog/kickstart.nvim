@@ -2,12 +2,12 @@
 -- https://github.com/nvim-neo-tree/neo-tree.nvim
 
 return {
-  'nvim-neo-tree/neo-tree.nvim',
+  'https://gitee.com/masa-laboratory/neo-tree.nvim',
   version = '*',
   dependencies = {
-    'nvim-lua/plenary.nvim',
-    'nvim-tree/nvim-web-devicons', -- not strictly required, but recommended
-    'MunifTanjim/nui.nvim',
+    'https://gitee.com/masa-laboratory/plenary.nvim',
+    'https://gitee.com/masa-laboratory/nvim-web-devicons', -- not strictly required, but recommended
+    'https://gitee.com/masa-laboratory/nui.nvim',
   },
   cmd = 'Neotree',
   keys = {
