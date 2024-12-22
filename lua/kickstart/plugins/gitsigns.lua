@@ -4,7 +4,7 @@
 
 return {
   {
-    'lewis6991/gitsigns.nvim',
+    'https://gitee.com/masa-laboratory/gitsigns.nvim',
     opts = {
       on_attach = function(bufnr)
         local gitsigns = require 'gitsigns'
